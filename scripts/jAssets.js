@@ -102,7 +102,7 @@ const tweet = async() => {
 }
 
 try {
-    main();
+    tweet();
 } catch(error) {
     console.log(error);
 }
